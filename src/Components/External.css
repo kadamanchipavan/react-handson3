@@ -1,0 +1,85 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+}
+.imputTagStyles{
+    height: 40px;
+    width: 300px;
+    background-color: rgb(217, 220, 222);
+    border-radius: 30px;
+    
+    justify-content: center;
+    padding: 8px;
+    margin:   10px 20px;
+    
+}
+.imputTagStyles:hover{
+    background-color: rgb(68, 171, 222);
+    
+}
+
+.labelForInput{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.submitagStyles{
+    height: 60px;
+    width: 250px;
+    background-color: rgb(29, 238, 238);
+    border-radius: 30px;
+    padding: 12px;
+    margin:   10px 20px;
+    font-size: larger;
+}
+
+.submitagStyles:hover{
+    background-color: blueviolet;
+}
+
+.OuterDiv{
+    background-color: rgb(106, 166, 190);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 70%;    
+    border-radius: 5px;
+    margin:5% 15%;
+}
+
+.OuterDiv:hover{
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px black, -2px 0 3px black;
+}
+
+.innerElements{
+    margin: 20px;
+    background-color: rgb(195, 106, 121);
+    height: 10vh;
+    width: 30vw;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+
+.innerElements:hover{
+    box-shadow: 2px 2px 3px rgb(239, 98, 122) ;
+    background-color: rgb(154, 96, 209);
+}
+
+
+@media  screen and (min-width : 120px) and (max-width : 680px) {
+
+    .innerElements{
+        flex-direction: column;
+    }
+    
+}
